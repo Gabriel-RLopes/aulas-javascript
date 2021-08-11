@@ -1,7 +1,7 @@
 function Enviar(){
-   var nome = document.getElementById("name");
-   var idade = document.getElementById("age");
-   var peso = document.getElementById("peso");
+   let nome = document.getElementById("name");
+   let idade = document.getElementById("age");
+   let peso = document.getElementById("peso");
 
    window.alert(nome.value);
    window.alert(idade.value);
