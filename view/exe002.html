@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exercicio 02</title>
+</head>
+<body>
+   <form>
+      <label for="name">
+         Nome: <input type="text" id="name" name="nome">
+      </label><br>
+      <br>
+      <label for="age">
+         idade: <input type="text" id="age" name="idade">
+      </label><br>
+      <br>
+      <label for="peso">
+         peso: <input type="text" id="peso" name="peso">
+      </label><br>
+      <input type="submit" class="enviar" onclick="Enviar();" value="enviar">
+   </form>
+
+   <script>
+      function Enviar(){
+         var nome = document.getElementById("name");
+         var idade = document.getElementById("age");
+         var peso = document.getElementById("peso")
+
+         window.alert(nome.value)
+         window.alert(idade.value)
+         window.alert(peso.value)
+      }
+   </script>
+
+</body>
+</html>
